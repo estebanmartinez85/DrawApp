@@ -1,0 +1,19 @@
+{
+  "name": "drawapp",
+  "version": "0.0.1",
+  "description": "Basic Drawing Canvas App",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebanmartinez85/DrawApp.git"
+  },
+  "author": "Esteban Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estebanmartinez85/DrawApp/issues"
+  },
+  "homepage": "https://github.com/estebanmartinez85/DrawApp#readme"
+}
