@@ -1,8 +1,11 @@
 {
   "name": "drawapp",
-  "version": "0.0.1",
-  "description": "Basic Drawing Canvas App",
+  "version": "0.1.0",
+  "description": "Basic Canvas App",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -15,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/estebanmartinez85/DrawApp/issues"
   },
-  "homepage": "https://github.com/estebanmartinez85/DrawApp#readme"
+  "homepage": "https://github.com/estebanmartinez85/DrawApp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "babel": "^6.23.0",
+    "babel-jest": "^24.7.1",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^24.7.1",
+    "jest-cli": "^24.7.1"
+  },
+  "dependencies": {}
 }
